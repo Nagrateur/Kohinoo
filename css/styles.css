@@ -8,6 +8,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 17px;
   line-height: 1.5;
+  padding-top: 80px;
 }
 
 ul {
@@ -18,12 +19,20 @@ header {
   padding: 10px 10%;
 }
 
-/* ----------------------------------------- */
+.container {
+  padding: 0 20px;
+  margin: 0 auto;
+}
 
+/* ---------- NAVBAR ---------- */
 .navbar {
   background-color: #2146c7;
   height: 80px;
   padding: 10px 10%;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  top: 0;
 }
 
 .K {
@@ -61,12 +70,9 @@ header {
 .navbar ul li {
   margin-left: 20px;
 }
+/* ---------- FIN NAVBAR ---------- */
 
-.container {
-  padding: 0 20px;
-  margin: 0 auto;
-}
-
+/* ---------- HEADER ---------- */
 .head-news {
   background-color: #d6e4e5;
   padding: 20px;
@@ -76,6 +82,9 @@ header {
   color: #5da7db;
   text-align: center;
 }
+/* ---------- FIN HEADER ---------- */
+
+/* ---------- PAGE PRINCIPAL ---------- */
 
 .histoire {
   text-align: center;
@@ -87,19 +96,82 @@ header {
   color: #5837d0;
 }
 
-/* -------- Nous Joindre ------------- */
+/* ---------- FIN PAGE PRINCIPAL ---------- */
 
-.localisation .container-map {
-  display: flex;
+/* -------- Nous Joindre ------------- */
+.rectangle {
+  background-color: aliceblue;
+  font-family: "Roboto", sans-serif;
+  padding: 0 10%;
 }
 
-/* -------- FOOTER ------------------- */
+.rectangle h1 {
+  font-size: 45px;
+  color: blue;
+}
+
+.kh-choix {
+  padding: 20px 0;
+  font-size: 20px;
+}
+
+.kh-bsd {
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  padding: 20px;
+}
+
+.k {
+  color: orange;
+}
+
+.adresse li {
+  list-style-type: none;
+  padding: 10px;
+}
+
+.adresse a {
+  color: inherit;
+}
+
+.alerte {
+  color: red;
+  padding: 10px 0;
+}
+
+table {
+  width: 300px;
+}
+
+table tr > :nth-child(2) {
+  text-align: right;
+}
+
+.mapouter {
+  padding: 60px 0;
+}
+
+.horaire li {
+  list-style-type: none;
+  padding: 3px;
+}
+
+/* ---------- FOOTER ---------- */
 
 .footer-container {
   background-color: #2146c7;
   color: white;
   display: flex;
   justify-content: space-between;
+  padding: 20px 10%;
+}
+
+.footer-container-nj {
+  background-color: #2146c7;
+  color: white;
+  display: flex;
+  justify-content: space-around;
   padding: 10px 10%;
 }
 
@@ -115,8 +187,22 @@ header {
   text-align: center;
 }
 
-.footer-liste a {
+.table-adresse {
+  width: 400px;
+}
+
+.dep-liste a {
   color: white;
   text-decoration: none;
   list-style-type: none;
 }
+
+.social-media a {
+  color: white;
+}
+
+/* ---------- FIN FOOTER ---------- */
+
+/* ---------- Marque Maison ---------- */
+
+/* ---------- Marque Maison ---------- */
