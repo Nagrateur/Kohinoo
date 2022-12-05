@@ -1,0 +1,122 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  line-height: 1.5;
+}
+
+ul {
+  list-style-type: none;
+}
+
+header {
+  padding: 10px 10%;
+}
+
+/* ----------------------------------------- */
+
+.navbar {
+  background-color: #2146c7;
+  height: 80px;
+  padding: 10px 10%;
+}
+
+.K {
+  color: orange;
+}
+
+.navbar .logo {
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 3px;
+}
+
+.navbar a:hover {
+  color: aqua;
+}
+
+.navbar ul li {
+  margin-left: 20px;
+}
+
+.container {
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.head-news {
+  background-color: #d6e4e5;
+  padding: 20px;
+}
+
+.head-news h2 {
+  color: #5da7db;
+  text-align: center;
+}
+
+.histoire {
+  text-align: center;
+  padding: 10px 10%;
+}
+
+.nomMagasin {
+  font-size: 50px;
+  color: #5837d0;
+}
+
+/* -------- Nous Joindre ------------- */
+
+.localisation .container-map {
+  display: flex;
+}
+
+/* -------- FOOTER ------------------- */
+
+.footer-container {
+  background-color: #2146c7;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 10%;
+}
+
+.vl {
+  border-left: 1px solid white;
+  padding: 10px 5px;
+  margin: 0 5px;
+  height: auto;
+}
+
+.footer-titre {
+  padding: 0 0 10px 0;
+  text-align: center;
+}
+
+.footer-liste a {
+  color: white;
+  text-decoration: none;
+  list-style-type: none;
+}
