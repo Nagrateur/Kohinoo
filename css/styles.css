@@ -205,11 +205,14 @@ table tr > :nth-child(2) {
 
 /* ---------- Marque Maison ---------- */
 
+.introduction {
+  text-align: center;
+}
+
 .produitprive {
   padding: 10px 20%;
   display: flex;
   text-align: left;
-  align-items: center;
   line-height: 1.5;
 }
 
@@ -221,5 +224,9 @@ table tr > :nth-child(2) {
 .row-desc {
   background-color: #eff5f5;
   height: 400px;
+}
+
+.row-desc p {
+  align-items: center;
 }
 /* ---------- Marque Maison ---------- */ ;
